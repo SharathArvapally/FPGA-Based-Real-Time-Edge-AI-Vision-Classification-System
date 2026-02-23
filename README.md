@@ -97,6 +97,7 @@ Measured Metrics:
 - Timing closure (WNS)
 - Maximum operating frequency (Fmax)
 
+---
 Clock Constraint:
 create_clock -period 10.000 -name clk [get_ports clk]
 
@@ -177,6 +178,16 @@ Example (100 MHz clock):
 - Hardware validation of ML models
 
 ---
+## Hardware Results
+
+- Maximum Frequency: ~126 MHz
+- Slice LUTs Used: 129 (0.39%)
+- Registers Used: 81 (0.12%)
+- DSP48 Used: 11 (9%)
+- Timing Constraints: Met
+- Inference Latency: ~87 ns (for demo input size)
+
+---  
 
 ## 🔮 Future Improvements
 
