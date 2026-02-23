@@ -186,7 +186,17 @@ Example (100 MHz clock):
 - DSP48 Used: 11 (9%)
 - Timing Constraints: Met
 - Inference Latency: ~87 ns (for demo input size)
+---
+## Performance Comparison
 
+CPU (PyTorch, batch size 1):
+~65 µs per inference
+
+FPGA (Synthesized, 126 MHz):
+~5.38 µs per inference
+
+Acceleration:
+~12× faster than CPU
 ---  
 
 ## 🔮 Future Improvements
